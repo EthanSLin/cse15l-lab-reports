@@ -18,4 +18,11 @@
 * Run this following command 
 > scp WhereAmI.java *(your account username here)*@ieng6.ucsd.edu
 # Setting an SSH key
+* Run "ssh-keygen" (if you're on Windows, also follow [these instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation))
+* While on the server, run "mkdir ..sh", then "scp *(the location of your public key) (your account username here)*@ieng6.ucsd.edu
+![Image](screenshot5.png)
+* Note: this may take many tries
 # Optimizing Remote Running
+* Use semicolons to run multiple commands on the same line
+![Image](screenshot5.png)
+* Use the up arrow to recall the last command that was run
