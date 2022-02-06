@@ -1,7 +1,7 @@
 *Code Change 1:*
 ![Image](sc12.png)
 [Test File](https://github.com/EthanSLin/markdown-parse/blob/main/test.md)
-![Image](sc11.png)
+![Image](sc17.png)
 When an link without a closed parentheses is inserted, the program becomes confused and throws an exception, unable to proceed. The program looks for the index of the next ')', but since there aren't any, an IndexOutOfBoundsException is thrown.
 
 *Code Change 2:*
